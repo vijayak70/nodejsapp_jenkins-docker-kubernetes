@@ -28,15 +28,19 @@ https://docs.docker.com/engine/install/ubuntu/
 add dockerhub login creds with id same as provided as jenkinsfile
 
 
-kubernetes plugin and kubenetes cli plugin
+Kubernetes ,  ,kubernetes credentials  , kubernetes cli,( kubernetes plugin is enough ,, if doesnt work than install all kube related plugins)
 
-set up cloud > kubernetes
+add cloud : kubernetes
 
-add config.kubeconfig file 
+copy the config file content and  create a .kubeconfig file on desktop to upload jenkins credentials as secret file.
+
+test connection ; save 
+
+add config.kubeconfig file as 
 
 install kubectl on jenkins server
 
- curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
 chmod a+x ./kubectl
 
