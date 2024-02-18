@@ -14,7 +14,7 @@ sudo apt-get update
   sudo apt-get install jenkins
   
 ```  
-
+```
 -- make sure to give jenkins service root previleges
 
 install docker on it : (for ubuntu :)
@@ -55,8 +55,11 @@ Thanks :)
 
 
 
-
+```
 ==============================================================================
+```
+
+Other way if above one didnt worked ..
 
 /*
 install kubernetes-cd plugin downloaded already in local system ...
@@ -69,3 +72,5 @@ run the pipeline
 
 Note : This pipeline doesn't recreate the deployment if u have changed somethinh for the second build . make sure to delete deployment and than rebuild the pipeline
 */
+
+```
