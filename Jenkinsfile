@@ -42,7 +42,7 @@ pipeline {
     stage('Apply Kubernetes files') {
       steps {
         script {
-          withKubeConfig([credentialsId: 'kubernetes', serverUrl: 'https://172.31.82.88:6443']) {
+          withKubeConfig([credentialsId: 'kubernetes', serverUrl: 'https://172.31.49.183:6443']) {
             sh 'kubectl delete pods --all'
             sh 'kubectl apply -f deploymentservice.yml'
           }
