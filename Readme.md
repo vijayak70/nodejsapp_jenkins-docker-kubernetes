@@ -28,7 +28,8 @@ https://docs.docker.com/engine/install/ubuntu/
 add dockerhub login creds with id same as provided as jenkinsfile
 
 
-Kubernetes ,  ,kubernetes credentials  , kubernetes cli,( kubernetes plugin is enough ,, if doesnt work than install all kube related plugins)
+install plgins :
+Kubernetes (imp) , kubernetes cli (imp) ,kubernetes credential   
 
 add cloud : kubernetes
 
